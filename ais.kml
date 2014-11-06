@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Folder>
+    <name>Network Links</name>
+    <visibility>1</visibility>
+    <open>0</open>
+    <description>Network link example</description>
+    <NetworkLink>
+      <name>Planes</name>
+      <visibility>1</visibility>
+      <open>0</open>
+      <description>Moar Boats</description>
+      <refreshVisibility>1</refreshVisibility>
+      <flyToView>0</flyToView>
+      <Link>
+      	<href><![CDATA[http://localhost:8081]]></href>
+        <refreshMode>onInterval</refreshMode>
+        <refreshInterval>0.4</refreshInterval>
+      </Link>
+    </NetworkLink>
+    </Folder>
+</kml>
